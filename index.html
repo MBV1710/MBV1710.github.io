@@ -1,16 +1,20 @@
-import Link from 'next/link';
-
-export default function Home() {
-  return (
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+</head>
+<body>
     <div>
-      <h1>Restaurante</h1>
-      <nav>
-        <ul>
-          <li><Link href="/reservas">Reservas</Link></li>
-          <li><Link href="/delivery">Delivery</Link></li>
-          <li><Link href="/cardapio">Cardápio</Link></li>
-        </ul>
-      </nav>
+        <h1>Restaurante</h1>
+        <nav>
+            <ul>
+                <li><a href="/reservas">Reservas</a></li>
+                <li><a href="/delivery">Delivery</a></li>
+                <li><a href="/cardapio">Cardápio</a></li>
+            </ul>
+        </nav>
     </div>
-  );
-}
+</body>
+</html>
